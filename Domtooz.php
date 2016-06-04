@@ -5,6 +5,7 @@ require_once 'iniparser.php';
 class Domtooz
 {
     // Please reference: http://data.iana.org/TLD/tlds-alpha-by-domain.txt
+    // To find whois servers: https://gwhois.org
 
     private static $domain_file = 'domains.ini';
 
